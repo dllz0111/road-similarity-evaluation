@@ -32,8 +32,8 @@ Directory Structure:
 │   ├── rank.c  
 │   └── diversity.c  
 ├── lib/ # please install raylib folder here  
-├── cJSON.c  
-├── cJSON.h  
+│   ├── cJSON.c  
+│   └── cJSON.h  
 ├── assets/  
 │   └── data/  
 │       ├── similarity_map.geojson  
