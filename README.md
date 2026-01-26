@@ -1,4 +1,4 @@
-This program is a simple tool using Discrete Normalized Frechet Distance to quantify road similarity and diversity for testing autonomous driving systems.
+This is a small experimental tool for evaluating road similarity and diversity using Discrete Normalized Fréchet Distance, mainly intended for testing autonomous driving systems.
 
 Note: Raylib is not installed by default. Please install it at "lib/" folder manually if you want to visualize the result.
 
