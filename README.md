@@ -23,7 +23,7 @@ Diversity:
 It will print the diversity (average Normalized Discrete Procrustes Distance)
 
 
-If your map includes too many roads, please modify the macro MAX_ROAD_COUNT
+If your map includes too many roads, please modify the macro MAX_FEATURE_COUNT
 .  
 The default is 1000.
 
