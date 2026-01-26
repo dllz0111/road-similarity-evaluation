@@ -28,16 +28,16 @@ It will print the diversity (average Normalized Discrete Procrustes Distance)
 
 Directory Structure:
 .
-├── src/
-│   ├── rank.c
-│   └── diversity.c
-├── lib/ # please install raylib folder here
-├── cJSON.c
-├── cJSON.h
-├── assets/
-│   └── data/
-│       ├── similarity_map.geojson
-│       ├── target_road.geojson
-│       └── diversity_map.geojson
-├── CMakeLists.txt
-└── README.md
+├── src/  
+│   ├── rank.c  
+│   └── diversity.c  
+├── lib/ # please install raylib folder here  
+├── cJSON.c  
+├── cJSON.h  
+├── assets/  
+│   └── data/  
+│       ├── similarity_map.geojson  
+│       ├── target_road.geojson  
+│       └── diversity_map.geojson  
+├── CMakeLists.txt  
+└── README.md  
