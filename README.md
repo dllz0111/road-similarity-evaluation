@@ -9,12 +9,12 @@ Rank：
 2. Name it as "similarity_map.geojson", and put it at "assets/data"
 3. Rename target road as "target road.geojson", and put it at "assets/data"
 
-It will print all the roads' name, type and Frechet Distance with the target road in increasing order.
-It will also create a window to visualize. (You need to install raylib manually)
-Change the macro VISUALIZE to 0 to shut down visualization.
+It will print all the roads' name, type and Frechet Distance with the target road in increasing order.  
+It will also create a window to visualize. (You need to install raylib manually)  
+Change the macro VISUALIZE to 0 to shut down visualization.  
 
-This code has length and nodecount filter to filter too short and straight roads that are not suitable for testing ADSs.
-You can change the macros to modify the parameters.
+This code has length and nodecount filter to filter too short and straight roads that are not suitable for testing ADSs.  
+You can change the macros to modify the parameters.  
 
 Diversity:
 1. Download map from OpenStreetMap,extract as geojson file.
