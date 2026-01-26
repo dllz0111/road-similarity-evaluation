@@ -21,7 +21,7 @@
 #define ASSET_FONT_DIR  "assets/font/"
 
 #define TARGET_ROAD_FILEADDRESS ASSET_DATA_DIR "target road.geojson"
-#define MAP_FILEADDRESS         ASSET_DATA_DIR "map.geojson"
+#define MAP_FILEADDRESS         ASSET_DATA_DIR "similarity_map.geojson"
 
 #define FONT_ADDRESS            ASSET_FONT_DIR "PretendardJP-Bold.otf"
 
@@ -570,4 +570,5 @@ if (VISUALIZE == 1) {
     free(B);
 
     return 0;
+
 }
