@@ -26,8 +26,8 @@ It will print the diversity (average Normalized Discrete Procrustes Distance)
 
 
 
-Directory Structure:
-.
+Directory Structure:  
+.  
 ├── src/  
 │   ├── rank.c  
 │   └── diversity.c  
