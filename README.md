@@ -13,7 +13,7 @@ It will print all the roads' name, type and Frechet Distance with the target roa
 It will also create a window to visualize.  
 Change the macro VISUALIZE to 0 to shut down visualization.  
 
-This code has length and nodecount filter to filter too short and straight roads that are not suitable for testing ADSs.  
+This code has length and nodecount filter to filter too short and straight roads.  
 You can change the macros to modify the parameters.  
 
 Diversity:
