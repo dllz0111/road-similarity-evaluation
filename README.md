@@ -1,6 +1,6 @@
 This program is a simple tool to quantify road similarity and diversity using Discrete Normalized Fréchet Distance, mainly intended for testing autonomous driving systems.
 
-Note: Raylib is not installed by default. Please install it at "lib/" folder manually if you want to visualize the result.
+Raylib is not in the folder, but it should be installed automatically.
 
 How to use：
 
@@ -10,7 +10,7 @@ Rank：
 3. Rename target road as "target road.geojson", and put it at "assets/data"
 
 It will print all the roads' name, type and Frechet Distance with the target road in increasing order.  
-It will also create a window to visualize. (You need to install raylib manually)  
+It will also create a window to visualize.  
 Change the macro VISUALIZE to 0 to shut down visualization.  
 
 This code has length and nodecount filter to filter too short and straight roads that are not suitable for testing ADSs.  
@@ -23,17 +23,16 @@ Diversity:
 It will print the diversity (average Normalized Discrete Procrustes Distance)
 
 
-If your map includes too many roads, please modify the macro MAX_FEATURE_COUNT
-.  
+If your map includes too many roads, please modify the macro MAX_FEATURE_COUNT.  
 The default is 1000.
 
-
+  
 Directory Structure:  
 .  
 ├── src/  
 │   ├── rank.c  
 │   └── diversity.c  
-├── lib/ # please install raylib folder here  
+├── lib/
 │   ├── cJSON.c  
 │   └── cJSON.h  
 ├── assets/  
