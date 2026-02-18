@@ -24,7 +24,7 @@ name – road name
   
 type – road category  
   
-f – auxiliary value (e.g., distance score)  
+f – auxiliary value (e.g., Fréchet Distance score)  
 
     
 Some core functions:
