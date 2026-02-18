@@ -3,15 +3,15 @@ This program is a simple tool to quantify road similarity and diversity using Di
 This program has a C head file "NDPF.h", which includes some functions to calculate Fréchet Distance.  
 Copy and paste into your project to use it.
 
-The core data structure used in this project is:
+The core data structure used in this project is:  
 
-typedef struct {
-    int n;                  // number of points
-    Point *coordinates;     // polyline coordinates
-    char name[256];         // road name
-    char type[32];          // road type
-    double f;               // optional score
-} group;
+typedef struct {  
+    int n;                  // number of points  
+    Point *coordinates;     // polyline coordinates  
+    char name[256];         // road name  
+    char type[32];          // road type  
+    double f;               // optional score  
+} group;  
 
 
 Each group represents a single road polyline.
