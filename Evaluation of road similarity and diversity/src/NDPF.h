@@ -22,10 +22,10 @@
 #define LENGTH_FILTER 300//in meter
 #define SHOW 100
 
-#define TARGET_ROAD_FILEADDRESS "target road3.geojson"
-#define MAP_FILEADDRESS "map.geojson"
+#define TARGET_ROAD_FILEADDRESS "../assets/data/target road.geojson"
+#define MAP_FILEADDRESS "../assets/data/similarity_map.geojson"
 
-#define FONT_ADDRESS "PretendardJP-Bold.otf"
+#define FONT_ADDRESS "../assets/font/PretendardJP-Bold.otf"
 long double max(long double a,long double b) {
     return (a > b) ? a : b;
 }
