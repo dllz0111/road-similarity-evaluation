@@ -1,4 +1,26 @@
-This program is a simple tool to quantify road similarity and diversity using Discrete Normalized Fréchet Distance, mainly intended for testing autonomous driving systems.
+This program is a simple tool to quantify road similarity and diversity using Discrete Normalized Fréchet Distance, mainly intended for testing autonomous driving systems.  
+
+This program has a C head file "NDPF.h", which includes some functions to calculate Fréchet Distance.  
+Copy and paste into your project to use it.
+
+Some core functions:
+
+(double) rotate_theta(const group *a, const group *b)
+    -> compute the optimal rotation angle that aligns road b to road a.
+
+(long double) frecdis(const group *a, const group *b)
+    -> compute the Discrete Fréchet Distance between two polylines.
+
+(long double) normalized_frecdis(const group *a, const group *b)
+    -> compute the Fréchet Distance after arc-length normalization 
+       (the longer road is truncated to match the shorter one).
+
+(long double) NDPF(group *a, group *b)
+    -> full Normalized Direction-Preserving Fréchet Distance
+       (translation + rotation + optional reverse matching).
+
+(long double) sliding_NDPF(group *A, group *B)
+    -> compute the minimal NDPF under sliding window matching.
 
 Raylib is not in the folder, but it should be installed automatically.
 
@@ -14,7 +36,7 @@ It will also create a window to visualize.
 Change the macro VISUALIZE to 0 to shut down visualization.  
 
 This code has length and nodecount filter to filter too short and straight roads.  
-You can change the macros to modify the parameters.  
+You can change the macros to modify the parameters in "NDPF.h".  
 
 Diversity:
 1. Download map from OpenStreetMap,extract as geojson file.
