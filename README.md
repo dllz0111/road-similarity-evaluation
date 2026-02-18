@@ -27,25 +27,25 @@ type – road category
 f – auxiliary value (e.g., Fréchet Distance score)  
 
     
-Some core functions:
-
-(double) rotate_theta(const group *a, const group *b)
-    -> compute the optimal rotation angle that aligns road b to road a.
-
-(long double) frecdis(const group *a, const group *b)
-    -> compute the Discrete Fréchet Distance between two polylines.
-
-(long double) normalized_frecdis(const group *a, const group *b)
-    -> compute the Fréchet Distance after arc-length normalization 
-       (the longer road is truncated to match the shorter one).
-
-(long double) NDPF(group *a, group *b)
-    -> full Normalized Direction-Preserving Fréchet Distance
-       (translation + rotation + optional reverse matching).
-
-(long double) sliding_NDPF(group *A, group *B)
-    -> compute the minimal NDPF under sliding window matching.
-
+Some core functions:  
+  
+(double) rotate_theta(const group *a, const group *b)  
+    -> compute the optimal rotation angle that aligns road b to road a.  
+  
+(long double) frecdis(const group *a, const group *b)  
+    -> compute the Discrete Fréchet Distance between two polylines.  
+  
+(long double) normalized_frecdis(const group *a, const group *b)  
+    -> compute the Fréchet Distance after arc-length normalization   
+       (the longer road is truncated to match the shorter one).  
+  
+(long double) NDPF(group *a, group *b)  
+    -> full Normalized Direction-Preserving Fréchet Distance  
+       (translation + rotation + optional reverse matching).  
+  
+(long double) sliding_NDPF(group *A, group *B)  
+    -> compute the minimal NDPF under sliding window matching.  
+  
 Raylib is not in the folder, but it should be installed automatically.
 
 How to use：
