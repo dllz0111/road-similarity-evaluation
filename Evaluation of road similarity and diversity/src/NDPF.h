@@ -1,5 +1,5 @@
 //
-// Created by 36696 on 2026/2/18.
+// Created by dllz0111 on 2026/2/18.
 //
 
 #ifndef NDPF_H
@@ -276,6 +276,7 @@ long double sliding_NDPF(group *A, group *B) {
 
     return min_dist;
 }
+
 
 
 #endif //NDPF_H
