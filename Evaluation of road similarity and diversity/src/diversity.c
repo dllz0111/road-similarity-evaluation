@@ -13,7 +13,7 @@
 #define LENGTH_FILTER 10
 
 
-#define MAP_FILEADDRESS "assets/data/diversity_map.geojson"
+#define MAP_FILEADDRESS "../assets/data/diversity_map.geojson"
 
 long double max(long double a,long double b) {
     return (a > b) ? a : b;
