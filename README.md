@@ -6,26 +6,27 @@ Copy and paste into your project to use it.
 The core data structure used in this project is:  
 
 typedef struct {  
-    int n;                  // number of points  
-    Point *coordinates;     // polyline coordinates  
-    char name[256];         // road name  
-    char type[32];          // road type  
-    double f;               // optional score  
+    int n;  
+    Point *coordinates;  
+    char name[256];  
+    char type[32];  
+    double f;  
 } group;  
 
 
-Each group represents a single road polyline.
+Each group represents a single road polyline.  
+  
+n – number of vertices  
+  
+coordinates – array of 2D points  
+  
+name – road name  
+  
+type – road category  
+  
+f – auxiliary value (e.g., distance score)  
 
-n – number of vertices
-
-coordinates – array of 2D points
-
-name – road name
-
-type – road category
-
-f – auxiliary value (e.g., distance score)
-
+    
 Some core functions:
 
 (double) rotate_theta(const group *a, const group *b)
