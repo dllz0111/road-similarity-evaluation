@@ -239,10 +239,12 @@ if (VISUALIZE == 1) {
         while (!WindowShouldClose()) {
             if (IsKeyPressed(KEY_ENTER)
                 || IsMouseButtonPressed(MOUSE_LEFT_BUTTON)
-                ||IsKeyPressed(KEY_KP_ADD)) {
+                ||IsKeyPressed(KEY_KP_ADD)
+                ||IsKeyPressed(KEY_RIGHT)){
                 i = (i + 1)%show;
             }else if (IsKeyPressed(KEY_KP_SUBTRACT)
                 || IsMouseButtonPressed(MOUSE_RIGHT_BUTTON)
+                ||IsKeyPressed(KEY_LEFT)
                  && i != 0) {
                 i = i - 1;
             }
