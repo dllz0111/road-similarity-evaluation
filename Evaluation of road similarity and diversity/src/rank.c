@@ -9,6 +9,10 @@
 
 #define VISUALIZE 1
 
+#define TARGET_ROAD_FILEADDRESS "../assets/data/target road.geojson"
+#define MAP_FILEADDRESS "../assets/data/similarity_map.geojson"
+
+
 Vector2 ToV2(Point p) {
     return (Vector2){ (float)p.x, (float)p.y };
 }
