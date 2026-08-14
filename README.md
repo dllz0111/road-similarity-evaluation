@@ -88,3 +88,6 @@ Directory Structure:
 │       └── diversity_map.geojson  
 ├── CMakeLists.txt  
 └── README.md  
+
+
+I'm a beginner, so please don't be too harsh if there are any issues.
