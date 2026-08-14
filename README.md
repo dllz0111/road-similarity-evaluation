@@ -78,7 +78,7 @@ Directory Structure:
 ├── src/  
 │   ├── rank.c  
 │   └── diversity.c  
-├── lib/
+├── lib/  
 │   ├── cJSON.c  
 │   └── cJSON.h  
 ├── assets/  
